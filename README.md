@@ -22,3 +22,11 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+Changes made for Gutenberg Styling
+==================================
+
+Added the following line to all the html files:
+
+```
+<link rel="stylesheet" href="gutenberg.css">
+```
