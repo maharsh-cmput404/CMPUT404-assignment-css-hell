@@ -19,14 +19,16 @@ html {
 
 #welcome-message {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: -0.02em;  
 }
 
 #navbar-wrapper {
-    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    background-color: green;
+    background-color: white;
     text-align: center;
 }
 
@@ -43,4 +45,41 @@ html {
 .navbar-item > a {
     text-decoration: none;
     color: black;
+}
+
+#header, 
+#experience, 
+#skills {
+    /* without a padding, a fragment link will scroll to the div
+    but it will be hidden behind the navbar - add padding to make 
+    sure that the navbar doesn't cover the heading */
+    padding-top: 75px;
+}
+
+.experience-title, 
+.experience-company {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.experience-company,
+.experience-length {
+    color: #a9a9a9;
+}
+
+.experience-length {
+    float: right;
+}
+
+.experience-description {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.experience-description > ul > li {
+    margin: 0 0 5px 0;
+}
+
+.experience-item {
+    margin-bottom: 30px;
 }
