@@ -30,3 +30,15 @@ Added the following line to all the html files:
 ```
 <link rel="stylesheet" href="gutenberg.css">
 ```
+
+Sources
+=======
+
+Stackoverflow
+- Kirk, https://stackoverflow.com/questions/6410730/css-endless-rotation-animation
+
+W3
+- https://www.w3.org/Style/Examples/007/evenodd.en.html
+
+My Personal Website (for some styles and content)
+- https://www.maharsh.net
